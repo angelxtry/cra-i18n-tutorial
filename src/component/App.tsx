@@ -2,10 +2,10 @@ import 'antd/dist/antd.css';
 
 import React from 'react';
 
-import { SiderDemo } from './component/Layout';
+import { DefaultLayout } from './DefaultLayout';
 
 const App = () => {
-  return <SiderDemo />;
+  return <DefaultLayout />;
 };
 
 export default App;
